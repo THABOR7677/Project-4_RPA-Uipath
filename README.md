@@ -1,58 +1,60 @@
 # CMPG-323-Project-4-32858795
-Readme - RPA User Acceptance Testing (UAT) with UiPath
-Overview
-Testing is a critical part of any solution development process, ensuring that a system performs as expected and meets the requirements of its users. User Acceptance Testing (UAT) is a pivotal step in the development lifecycle, serving as the 'go/no-go' decision maker before a solution is deployed to production. UAT primarily focuses on verifying that the input entered into a solution generates the desired output. If the solution fails to produce the expected results, it must be revised and retested until it meets the required standards.
+# RPA User Acceptance Testing (UAT) with UiPath
 
-Robotic Process Automation (RPA) involves the use of technology to automate tasks by mimicking human actions, especially in the context of front-end or User Interface (UI) automation. RPA is particularly valuable for automating repetitive and time-consuming tasks, freeing up human capacity for more complex and creative tasks.
+## Overview
 
-In the context of this project, we will explore how UiPath, an RPA platform, can be used to automate the user acceptance testing of a web application. Rather than manually inputting data and validating the output, an RPA solution can be designed to perform these tasks, thereby enhancing efficiency and reducing human error.
+Testing plays a vital role in the development of any solution, ensuring that it meets user requirements and performs as expected. User Acceptance Testing (UAT) is a critical milestone in the development process, serving as the final decision point before a solution is deployed into production. UAT focuses on validating that the input provided to a system generates the desired output. If the solution fails to meet these expectations, it must be revised and retested until it meets the required standards.
 
-Prerequisites
-Before you begin this project, make sure to address the following prerequisites:
+Robotic Process Automation (RPA) leverages technology to automate tasks by simulating human actions, particularly in the context of front-end or User Interface (UI) automation. RPA is especially valuable for automating repetitive and time-consuming tasks, freeing up human resources to work on more complex and creative endeavors.
 
-UiPath Automation Cloud Account: Ensure that you have created an account on UiPath Automation Cloud, which will be used for orchestrating and monitoring your RPA workflows.
+In this project, we explore how UiPath, an RPA platform, can be used to automate user acceptance testing for a web application. Instead of manually entering data and validating output, an RPA solution can perform these tasks, significantly improving efficiency and reducing human error.
 
-UiPath Studio Community Edition: Download and install UiPath Studio Community Edition on your computer. This tool will be used for creating and designing your RPA automation workflows.
+## Prerequisites
 
-Access to the Web Application: You must have access to the web application that you intend to perform UI automation on. Ensure the application is available for testing.
+Before starting this project, ensure that you meet the following prerequisites:
 
-Test Data: Retrieve the Excel file containing the test data that will be used as input for your UI automation. This data will be used to validate the output of your RPA solution.
+- **UiPath Automation Cloud Account**: Create an account on UiPath Automation Cloud for orchestrating and monitoring your RPA workflows.
 
-Implementation Options
-For this project, a web application has been provided for students to use as the target for UI automation testing. The web application can be accessed at the following URL: https://cmpg323-ecopowerlogistics.azurewebsites.net/. Please note that this web application is specifically set up for this project.
+- **UiPath Studio Community Edition**: Download and install UiPath Studio Community Edition on your computer, which you will use to design and create your RPA automation workflows.
 
-Regarding the above approach, it's essential to understand that you are responsible for adapting and configuring the UiPath solution to work with this web application. There is no access to Azure resources or databases associated with the application. The primary focus here is on RPA implementation for testing purposes.
+- **Access to the Web Application**: You must have access to the web application on which you plan to perform UI automation. Ensure that the application is available for testing.
 
-Requirements
-In any software project, it is crucial to define both functional and non-functional requirements to ensure that the solution aligns with the needs and quality standards. Here's a brief overview of these requirements:
+- **Test Data**: Obtain the Excel file containing the test data, which will serve as the input for your UI automation and validation of the RPA solution's output.
 
-Functional Requirements
-Functional requirements pertain to what the system must do and how it should perform its functions. In the context of this project, functional requirements include:
+## Implementation Options
 
-UI Automation: The RPA solution must automate the interaction with the web application, including data input and validation of the expected output.
+For this project, a web application has been provided as the target for UI automation testing. You can access the web application at the following URL: [https://cmpg323-ecopowerlogistics.azurewebsites.net/](https://cmpg323-ecopowerlogistics.azurewebsites.net/). It's important to note that this web application is specifically set up for this project.
 
-Test Data Integration: The solution must be capable of integrating test data from an Excel file into the web application.
+Please be aware that you are responsible for adapting and configuring the UiPath solution to work with this web application. There is no access to Azure resources or databases associated with the application. The primary focus here is on RPA implementation for testing purposes.
 
-Error Handling: The RPA solution should have error handling mechanisms to deal with unexpected situations or errors during automation.
+## Requirements
 
-Reporting: There should be a mechanism for reporting on the success or failure of each test case, providing clear insights into the testing results.
+In any software project, defining both functional and non-functional requirements is essential to ensure that the solution aligns with needs and quality standards. Here's a brief overview of these requirements:
 
-Non-Functional Requirements
-Non-functional requirements relate to the quality attributes of the system or platform. For this project, non-functional requirements include:
+### Functional Requirements
 
-Reliability: The RPA solution must be reliable, ensuring consistent and accurate testing results.
+- **UI Automation**: The RPA solution must automate interaction with the web application, including data input and validation of expected output.
 
-Efficiency: The automation should be efficient, saving time and resources compared to manual testing.
+- **Test Data Integration**: The solution should be capable of integrating test data from an Excel file into the web application.
 
-Scalability: The solution should be adaptable to various test cases and potentially other web applications.
+- **Error Handling**: Implement error handling mechanisms to manage unexpected situations or errors during automation.
 
-Usability: The RPA workflow should be user-friendly and easily understandable for team members involved in testing.
+- **Reporting**: Provide a mechanism for reporting on the success or failure of each test case, offering clear insights into the testing results.
 
-Maintainability: The RPA solution should be maintainable, with proper documentation and version control.
+### Non-Functional Requirements
+
+- **Reliability**: The RPA solution must consistently produce accurate testing results.
+
+- **Efficiency**: The automation should save time and resources compared to manual testing.
+
+- **Scalability**: The solution should be adaptable to various test cases and potentially other web applications.
+
+- **Usability**: Ensure that the RPA workflow is user-friendly and easily understandable for team members involved in testing.
+
+- **Maintainability**: Document the RPA solution and implement version control to ensure its maintainability.
 
 Remember to document and manage these requirements as you develop and deploy your UiPath RPA solution for user acceptance testing.
 
-By following this guide, you'll be better equipped to leverage UiPath for automating User Acceptance Testing (UAT) and ensure the efficient and reliable validation of your web application. Happy testing!
 
 
 
