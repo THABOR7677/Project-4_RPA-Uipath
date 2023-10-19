@@ -55,6 +55,14 @@ In any software project, defining both functional and non-functional requirement
 
 Remember to document and manage these requirements as you develop and deploy your UiPath RPA solution for user acceptance testing.
 
+## 5. Referencial List <a name="Referencial List"></a>
+1.  Online courses &amp; credentials from top educators. join for free (no date) Coursera. Available at: https://www.coursera.org/learn/data-manipulation-in-rpa/home/week/1 (Accessed: 19 October 2023).
+2.  Meet the uipath platform (v2021.10) (no date) UiPath Academy. Available at: https://academy.uipath.com/courses/meet-the-uipath-platform (Accessed: 19 October 2023).
+3.  Casey, K. (no date) How to explain robotic process automation (RPA) in plain english, The Enterprisers Project. Available at: https://enterprisersproject.com/article/2019/5/rpa-robotic-process-automation-how-explain (Accessed: 19 October 2023).
+4.  Automation Anywhere (2021) Optimize efficiency with business process automation, Automation Anywhere. Available at: https://www.automationanywhere.com/rpa/robotic-process-automation (Accessed: 19 October 2023).  
+
+
+
 
 
 
